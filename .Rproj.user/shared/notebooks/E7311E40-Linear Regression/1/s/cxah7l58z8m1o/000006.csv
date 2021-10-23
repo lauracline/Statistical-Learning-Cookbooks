@@ -1,0 +1,3 @@
+"0","# Let's visualize this least squares regression line"
+"0","attach(Boston)"
+"0","plot(lstat, medv)"

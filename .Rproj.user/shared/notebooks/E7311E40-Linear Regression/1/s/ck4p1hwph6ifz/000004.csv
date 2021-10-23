@@ -1,0 +1,2 @@
+"0","# abline() allows us to draw any line, so play around with the options lwd (length), col (colour), and pch (plotting symbol)"
+"0","plot(lstat, medv)"

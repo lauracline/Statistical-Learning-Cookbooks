@@ -1,0 +1,4 @@
+"0","# The lm() function automatically produces diagnositc plots, which we can see my using plot()"
+"0","# Instead of viewing the four graphs individually, we can tell R to split the display into 4 plots"
+"0","par(mfrow=c(2,2))"
+"0","plot(lm.fit)"

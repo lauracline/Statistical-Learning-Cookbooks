@@ -1,0 +1,2 @@
+"0","# Residuals can be plotted individually with residuals() or rstudent()"
+"0","plot(predict(lm.fit), residuals(lm.fit))"

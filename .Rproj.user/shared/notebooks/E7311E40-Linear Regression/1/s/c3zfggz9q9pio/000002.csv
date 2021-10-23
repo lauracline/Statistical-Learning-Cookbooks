@@ -1,0 +1,2 @@
+"0","# Leverage statistics can be computed for our predictors with hatvalues(); to find the observation with the largest leverage which.max() is used"
+"0","plot(hatvalues(lm.fit))"
