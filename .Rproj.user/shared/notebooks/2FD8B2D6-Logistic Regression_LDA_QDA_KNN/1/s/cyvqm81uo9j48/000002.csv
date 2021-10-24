@@ -1,0 +1,4 @@
+"0","# Let's fit a new model, only using lag1 and lag2 as predictors"
+"0","glm.fit <- glm(direction ~ lag1 + lag2, data=Smarket, "
+"0","               family=""binomial"", subset = train)"
+"0","glm.probs = predict(glm.fit, Smarket.2005, type=""response"")"

@@ -1,0 +1,4 @@
+"0","# Create the training and testing sets"
+"0","train.X <- cbind(lag1, lag2)[train,]"
+"0","test.X <- cbind(lag1, lag2)[!train,]"
+"0","train.direction <- direction[train]"

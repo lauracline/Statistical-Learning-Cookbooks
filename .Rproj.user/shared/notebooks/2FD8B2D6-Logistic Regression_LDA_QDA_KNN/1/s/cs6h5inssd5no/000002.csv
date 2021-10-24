@@ -1,0 +1,2 @@
+"0","train.y <- purchase[-test]"
+"0","test.y <- purchase[test]"

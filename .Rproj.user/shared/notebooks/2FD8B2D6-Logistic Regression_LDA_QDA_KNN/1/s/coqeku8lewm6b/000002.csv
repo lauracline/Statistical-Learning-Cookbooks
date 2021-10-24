@@ -1,0 +1,4 @@
+"0","# Fit a new logistic regression using only the subset of observations for which train == 1, and then find how the model predicts the test set"
+"0","glm.fit <- glm(direction ~ lag1 + lag2 + lag3 + lag4 + lag5 + volume, data=Smarket, "
+"0","               family=""binomial"", subset=train)"
+"0","glm.probs <- predict(glm.fit, Smarket.2005, type=""response"")"

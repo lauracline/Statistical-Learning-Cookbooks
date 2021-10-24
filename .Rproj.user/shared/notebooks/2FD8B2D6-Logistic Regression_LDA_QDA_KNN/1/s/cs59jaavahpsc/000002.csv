@@ -1,0 +1,2 @@
+"0","glm.pred <- rep(""Down"", length(glm.probs))"
+"0","glm.pred[glm.probs > 0.5] = ""Up"""

@@ -1,0 +1,345 @@
+"0","dim(Caravan)"
+"1","[1]"
+"1"," 5822"
+"1","   86"
+"1","
+"
+"0","colnames(Caravan) <- tolower(colnames(Caravan))"
+"0","attach(Caravan)"
+"2","The following objects are masked from Caravan (pos = 3):
+
+    aaanhang, abesaut, abrand, abrom, abystand,
+    afiets, agezong, ainboed, aleven, amotsco,
+    apersaut, apersong, aplezier, atractor,
+    avraaut, awabedr, awaland, awaoreg, awapart,
+    awerkt, azeilpl, maanthui, maut0, maut1,
+    maut2, mberarbg, mberarbo, mberboer,
+    mberhoog, mbermidd, mberzelf, mfalleen,
+    mfgekind, mfwekind, mgemleef, mgemomv,
+    mgodge, mgodov, mgodpr, mgodrk, mhhuur,
+    mhkoop, mink123m, mink3045, mink4575,
+    mink7512, minkgem, minkm30, mkoopkla,
+    moplhoog, mopllaag, moplmidd, moshoofd,
+    mostype, mrelge, mrelov, mrelsa, mska, mskb1,
+    mskb2, mskc, mskd, mzfonds, mzpart, paanhang,
+    pbesaut, pbrand, pbrom, pbystand, pfiets,
+    pgezong, pinboed, pleven, pmotsco, ppersaut,
+    ppersong, pplezier, ptractor, purchase,
+    pvraaut, pwabedr, pwaland, pwaoreg, pwapart,
+    pwerkt, pzeilpl
+
+"
+"2","The following objects are masked from Caravan (pos = 4):
+
+    aaanhang, abesaut, abrand, abrom, abystand,
+    afiets, agezong, ainboed, aleven, amotsco,
+    apersaut, apersong, aplezier, atractor,
+    avraaut, awabedr, awaland, awaoreg, awapart,
+    awerkt, azeilpl, maanthui, maut0, maut1,
+    maut2, mberarbg, mberarbo, mberboer,
+    mberhoog, mbermidd, mberzelf, mfalleen,
+    mfgekind, mfwekind, mgemleef, mgemomv,
+    mgodge, mgodov, mgodpr, mgodrk, mhhuur,
+    mhkoop, mink123m, mink3045, mink4575,
+    mink7512, minkgem, minkm30, mkoopkla,
+    moplhoog, mopllaag, moplmidd, moshoofd,
+    mostype, mrelge, mrelov, mrelsa, mska, mskb1,
+    mskb2, mskc, mskd, mzfonds, mzpart, paanhang,
+    pbesaut, pbrand, pbrom, pbystand, pfiets,
+    pgezong, pinboed, pleven, pmotsco, ppersaut,
+    ppersong, pplezier, ptractor, purchase,
+    pvraaut, pwabedr, pwaland, pwaoreg, pwapart,
+    pwerkt, pzeilpl
+
+"
+"2","The following objects are masked from Caravan (pos = 5):
+
+    aaanhang, abesaut, abrand, abrom, abystand,
+    afiets, agezong, ainboed, aleven, amotsco,
+    apersaut, apersong, aplezier, atractor,
+    avraaut, awabedr, awaland, awaoreg, awapart,
+    awerkt, azeilpl, maanthui, maut0, maut1,
+    maut2, mberarbg, mberarbo, mberboer,
+    mberhoog, mbermidd, mberzelf, mfalleen,
+    mfgekind, mfwekind, mgemleef, mgemomv,
+    mgodge, mgodov, mgodpr, mgodrk, mhhuur,
+    mhkoop, mink123m, mink3045, mink4575,
+    mink7512, minkgem, minkm30, mkoopkla,
+    moplhoog, mopllaag, moplmidd, moshoofd,
+    mostype, mrelge, mrelov, mrelsa, mska, mskb1,
+    mskb2, mskc, mskd, mzfonds, mzpart, paanhang,
+    pbesaut, pbrand, pbrom, pbystand, pfiets,
+    pgezong, pinboed, pleven, pmotsco, ppersaut,
+    ppersong, pplezier, ptractor, purchase,
+    pvraaut, pwabedr, pwaland, pwaoreg, pwapart,
+    pwerkt, pzeilpl
+
+"
+"2","The following objects are masked from Caravan (pos = 6):
+
+    aaanhang, abesaut, abrand, abrom, abystand,
+    afiets, agezong, ainboed, aleven, amotsco,
+    apersaut, apersong, aplezier, atractor,
+    avraaut, awabedr, awaland, awaoreg, awapart,
+    awerkt, azeilpl, maanthui, maut0, maut1,
+    maut2, mberarbg, mberarbo, mberboer,
+    mberhoog, mbermidd, mberzelf, mfalleen,
+    mfgekind, mfwekind, mgemleef, mgemomv,
+    mgodge, mgodov, mgodpr, mgodrk, mhhuur,
+    mhkoop, mink123m, mink3045, mink4575,
+    mink7512, minkgem, minkm30, mkoopkla,
+    moplhoog, mopllaag, moplmidd, moshoofd,
+    mostype, mrelge, mrelov, mrelsa, mska, mskb1,
+    mskb2, mskc, mskd, mzfonds, mzpart, paanhang,
+    pbesaut, pbrand, pbrom, pbystand, pfiets,
+    pgezong, pinboed, pleven, pmotsco, ppersaut,
+    ppersong, pplezier, ptractor, purchase,
+    pvraaut, pwabedr, pwaland, pwaoreg, pwapart,
+    pwerkt, pzeilpl
+
+"
+"0","sapply(Caravan, class) # check the class of each variable to see which are categorical and which are continuous"
+"1","  mostype "
+"1"," maanthui "
+"1","  mgemomv "
+"1"," mgemleef "
+"1"," moshoofd "
+"1","
+"
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","
+"
+"1","   mgodrk "
+"1","   mgodpr "
+"1","   mgodov "
+"1","   mgodge "
+"1","   mrelge "
+"1","
+"
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","
+"
+"1","   mrelsa "
+"1","   mrelov "
+"1"," mfalleen "
+"1"," mfgekind "
+"1"," mfwekind "
+"1","
+"
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","
+"
+"1"," moplhoog "
+"1"," moplmidd "
+"1"," mopllaag "
+"1"," mberhoog "
+"1"," mberzelf "
+"1","
+"
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","
+"
+"1"," mberboer "
+"1"," mbermidd "
+"1"," mberarbg "
+"1"," mberarbo "
+"1","     mska "
+"1","
+"
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","
+"
+"1","    mskb1 "
+"1","    mskb2 "
+"1","     mskc "
+"1","     mskd "
+"1","   mhhuur "
+"1","
+"
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","
+"
+"1","   mhkoop "
+"1","    maut1 "
+"1","    maut2 "
+"1","    maut0 "
+"1","  mzfonds "
+"1","
+"
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","
+"
+"1","   mzpart "
+"1","  minkm30 "
+"1"," mink3045 "
+"1"," mink4575 "
+"1"," mink7512 "
+"1","
+"
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","
+"
+"1"," mink123m "
+"1","  minkgem "
+"1"," mkoopkla "
+"1","  pwapart "
+"1","  pwabedr "
+"1","
+"
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","
+"
+"1","  pwaland "
+"1"," ppersaut "
+"1","  pbesaut "
+"1","  pmotsco "
+"1","  pvraaut "
+"1","
+"
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","
+"
+"1"," paanhang "
+"1"," ptractor "
+"1","   pwerkt "
+"1","    pbrom "
+"1","   pleven "
+"1","
+"
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","
+"
+"1"," ppersong "
+"1","  pgezong "
+"1","  pwaoreg "
+"1","   pbrand "
+"1","  pzeilpl "
+"1","
+"
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","
+"
+"1"," pplezier "
+"1","   pfiets "
+"1","  pinboed "
+"1"," pbystand "
+"1","  awapart "
+"1","
+"
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","
+"
+"1","  awabedr "
+"1","  awaland "
+"1"," apersaut "
+"1","  abesaut "
+"1","  amotsco "
+"1","
+"
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","
+"
+"1","  avraaut "
+"1"," aaanhang "
+"1"," atractor "
+"1","   awerkt "
+"1","    abrom "
+"1","
+"
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","
+"
+"1","   aleven "
+"1"," apersong "
+"1","  agezong "
+"1","  awaoreg "
+"1","   abrand "
+"1","
+"
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","
+"
+"1","  azeilpl "
+"1"," aplezier "
+"1","   afiets "
+"1","  ainboed "
+"1"," abystand "
+"1","
+"
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","""numeric"" "
+"1","
+"
+"1"," purchase "
+"1","
+"
+"1"," ""factor"" "
+"1","
+"

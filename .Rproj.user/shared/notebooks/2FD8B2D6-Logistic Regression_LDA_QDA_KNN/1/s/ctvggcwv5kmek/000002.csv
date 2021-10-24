@@ -1,0 +1,4 @@
+"0","# Now we split the observations into a test set, containing the first 1,000 observations, and a training set, containing the remaining ones"
+"0","test <- 1:1000"
+"0","train.x <- standardized.x[-test,]"
+"0","test.x <- standardized.x[test,]"

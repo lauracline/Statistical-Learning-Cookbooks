@@ -1,0 +1,4 @@
+"0","# The training data for the model is the entire dataset, leaving nothing for testing. Let's split up the data to create a test set"
+"0","train <- (year < 2005) # Create training set indicator for the years 2001-2004"
+"0","Smarket.2005 <- Smarket[!train,] # Subset the original data to keep data with train == 0"
+"0","direction.2005 <- Smarket.2005[,""direction""] # True values of the test set"
