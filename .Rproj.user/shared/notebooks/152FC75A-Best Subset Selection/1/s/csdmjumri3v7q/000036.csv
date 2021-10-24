@@ -1,0 +1,1 @@
+"0","abline(v = which.min(reg.summary$cp), col=""red"", lty=2)"

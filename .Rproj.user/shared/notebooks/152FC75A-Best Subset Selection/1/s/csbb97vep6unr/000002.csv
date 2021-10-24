@@ -1,0 +1,4 @@
+"0","# Create a logical vector that's the same length as the number of observations in Hitters; this will determine how we split the data into training/testing sets"
+"0","set.seed(1)"
+"0","train <- sample(c(TRUE, FALSE), nrow(Hitters), rep = TRUE)"
+"0","test <- (!train)"

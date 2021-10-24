@@ -1,0 +1,4 @@
+"0","# Plot the RSS, adj R^2, C_p, and BIC for all of the models at once to do some visual judgement "
+"0","par(mfrow=c(2,2))"
+"0",""
+"0","plot(reg.summary$rss, xlab=""Number of Variables"", ylab=""RSS"", type=""l"")"

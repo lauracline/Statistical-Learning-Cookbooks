@@ -1,0 +1,3 @@
+"0","# By default, we only see the first 8 models, but with the nvmax option the function can return results with as many variables as desired "
+"0","regfit.fuller <- regsubsets(salary ~ ., Hitters, nvmax=19)"
+"0","reg.summary <- summary(regfit.fuller)"

@@ -1,0 +1,1 @@
+"0","abline(v = which.max(reg.summary$adjr2), col=""red"", lty=2) # Drop a dashed line to the x-axis (lty = 2 for dashed)"

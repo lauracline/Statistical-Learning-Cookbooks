@@ -1,0 +1,3 @@
+"0","# Goal now is to compute validation set error for each model that was created; we must first make a model matrix from the test data"
+"0","#This creates a matrix that contains all the data that will be included when the model is run (builds bold ""X"" matrix)"
+"0","test.mat <- model.matrix(salary ~ ., data=Hitters[test,])"

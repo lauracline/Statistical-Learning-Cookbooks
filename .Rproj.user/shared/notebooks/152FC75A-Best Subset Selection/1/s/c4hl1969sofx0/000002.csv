@@ -1,0 +1,7 @@
+"0","# Salary is missing for some observations, so find our how many and drop them"
+"0","sum(is.na(Hitters$salary))"
+"1","[1]"
+"1"," 59"
+"1","
+"
+"0","Hitters <- na.omit(Hitters)"

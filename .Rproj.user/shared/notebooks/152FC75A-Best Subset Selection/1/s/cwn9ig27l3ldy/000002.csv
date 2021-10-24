@@ -1,0 +1,2 @@
+"0","# Perform best subset selection on the training set"
+"0","regfit.best <- regsubsets(salary ~ ., data=Hitters[train,], nvmax = 19)"

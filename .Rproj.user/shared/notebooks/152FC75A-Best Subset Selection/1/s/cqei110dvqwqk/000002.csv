@@ -1,0 +1,7 @@
+"0","# Create an empty vector that is 19-long, and loop through each model to the regfit.best object to extract coefficients, find predictions, and calculate MSE"
+"0","val.errors <- rep(NA, 19)"
+"0","for (i in 1:19){"
+"0","  coefi <- coef(regfit.best, id = i)"
+"0","  pred <- test.mat[,names(coefi)]%*%coefi"
+"0","  val.errors[i] <- mean((Hitters$salary[test]-pred)^2)"
+"0","}"

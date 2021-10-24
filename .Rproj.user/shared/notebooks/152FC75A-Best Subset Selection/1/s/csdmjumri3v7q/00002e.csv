@@ -1,0 +1,1 @@
+"0","points(which.max(reg.summary$adjr2), reg.summary$adjr2[which.max(reg.summary$adjr2)], col=""red"", cex=2, pch=20) # Grab the point at which adjr2 is maximized, and the value associated with it (x,y)"

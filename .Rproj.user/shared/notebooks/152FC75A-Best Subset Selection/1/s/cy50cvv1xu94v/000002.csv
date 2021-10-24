@@ -1,0 +1,3 @@
+"0","# The regsubsets() function has a built-in plot option for doing just this, let's try it out. "
+"0","# The top row of each plot contains a black square for each variable selected from the optimal model associated with that statistic "
+"0","plot(regfit.fuller, scale=""r2"")"

@@ -1,0 +1,8 @@
+"0","# Note that we ha to create our own predictions, as regsubsets() does not contain an argument for it; let's write a function that will generalize this process"
+"0","predict_regsubsets <- function(regfit_object, testing_set, id, ...){"
+"0","  form <- as.formula(regfit_object$call[[2]]) # Return the formula used in the regsubsets() command, the second element grabs the form of the model"
+"0","  mat <- model.matrix(form, testing_set) # Create the model matrix using the training set and the formula from the previous line "
+"0","  coefi <- coef(regfit_object, id)"
+"0","  xvars <- names(coefi)"
+"0","  mat[,xvars]%*%coefi"
+"0","}"

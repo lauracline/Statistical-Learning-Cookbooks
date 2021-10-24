@@ -1,0 +1,3 @@
+"0","# Plot the means to visually find the best performing model"
+"0","par(mfrow = c(1,1))"
+"0","plot(mean_cv_errors, type=""b"")"

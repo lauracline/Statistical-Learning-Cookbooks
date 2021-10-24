@@ -1,0 +1,1 @@
+"0","points(which.min(reg.summary$cp), reg.summary$cp[which.min(reg.summary$cp)], col=""red"", cex=2, pch=20)"
