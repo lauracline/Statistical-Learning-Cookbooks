@@ -1,0 +1,4 @@
+"0","# Let's repeat what we did above using a quadratic term"
+"0","boot.fn <- function(data, index){"
+"0","  return(coef(lm(mpg ~ horsepower + I(horsepower^2), data=data, subset=index)))"
+"0","}"

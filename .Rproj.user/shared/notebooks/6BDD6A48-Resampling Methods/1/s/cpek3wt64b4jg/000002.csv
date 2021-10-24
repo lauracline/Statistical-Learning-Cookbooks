@@ -1,0 +1,7 @@
+"0","# Refit the model using higher order terms"
+"0","lm.fit2 <- lm(mpg ~ poly(horsepower,2), data=Auto, subset=train)"
+"0","mean((mpg - predict(lm.fit2, Auto))[-train]^2)"
+"1","[1]"
+"1"," 18.71646"
+"1","
+"

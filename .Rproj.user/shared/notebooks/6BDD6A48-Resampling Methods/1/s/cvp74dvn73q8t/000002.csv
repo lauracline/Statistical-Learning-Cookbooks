@@ -1,0 +1,7 @@
+"0","# Fit the model with the training set, and find the calculate the mean squared error "
+"0","lm.fit <- lm(mpg ~ horsepower, data=Auto, subset=train)"
+"0","mean((mpg - predict(lm.fit, Auto))[-train]^2)"
+"1","[1]"
+"1"," 23.26601"
+"1","
+"

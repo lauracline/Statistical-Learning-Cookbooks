@@ -1,0 +1,27 @@
+"0","# To conduct a boostrap analysis we would want to repeat this process, record the estimates for alpha, and find its standard deviation"
+"0","#Luckily, boot() does this for us"
+"0","boot(Portfolio, alpha.fn, R=1000)"
+"1","
+ORDINARY NONPARAMETRIC BOOTSTRAP
+
+"
+"1","
+Call:
+"
+"1","boot(data = Portfolio, statistic = alpha.fn, R = 1000)
+"
+"1","
+
+Bootstrap Statistics :
+"
+"1","   "
+"1"," original"
+"1","    bias  "
+"1","  std. error"
+"1","
+t1*"
+"1"," 12.28149"
+"1"," -13.24492"
+"1","    124.4232"
+"1","
+"

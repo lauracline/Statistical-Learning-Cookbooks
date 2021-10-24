@@ -1,0 +1,3 @@
+"0","boot.fn <- function(data, index){"
+"0","  return(coef(lm(mpg~horsepower, data=data, subset=index)))"
+"0","}"

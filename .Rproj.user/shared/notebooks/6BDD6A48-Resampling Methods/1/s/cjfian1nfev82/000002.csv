@@ -1,0 +1,3 @@
+"0","# If we want to find a different training set, simply change the seed and repeat this process"
+"0","set.seed(2)"
+"0","train <- sample(392,196)"

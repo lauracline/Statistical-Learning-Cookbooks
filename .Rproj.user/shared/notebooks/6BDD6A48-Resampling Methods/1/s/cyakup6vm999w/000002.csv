@@ -1,0 +1,2 @@
+"0","set.seed(1)"
+"0","boot(Auto, boot.fn, 1000)"

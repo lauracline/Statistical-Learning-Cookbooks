@@ -1,0 +1,7 @@
+"0","# Boostraping in R requires the computation of a statistic of interest"
+"0","# In this example, we write a function alpha.fn() to find the proportion of our money to invest in X (alpha) that minimizes variance below: Var(alpha*X + (1 - alpha)Y)"
+"0","alpha.fn <- function(data, index){"
+"0","  X <- data$X[index]"
+"0","  Y <- data$Y[index]"
+"0","  return((var(Y)-cov(X,Y))/(var(Y)-2*cov(X,Y)))"
+"0","}"
