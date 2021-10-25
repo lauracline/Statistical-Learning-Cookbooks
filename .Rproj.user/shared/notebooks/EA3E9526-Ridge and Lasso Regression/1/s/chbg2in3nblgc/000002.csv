@@ -1,0 +1,7 @@
+"0","# What is the test MSE associated with this lambda?"
+"0","ridge_pred <- predict(ridge_mod, s=best_lam, newx=x[test,])"
+"0","mean((ridge_pred - y.test)^2)"
+"1","[1]"
+"1"," 139856.6"
+"1","
+"

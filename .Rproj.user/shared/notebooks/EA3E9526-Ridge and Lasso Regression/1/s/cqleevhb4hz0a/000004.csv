@@ -1,0 +1,8 @@
+"0","# Just for fun, let's practice writing a function to extract this information for any lambda"
+"0","shrinkage_coef <- function(glmnet_mod, ld) {"
+"0","  coef_names <- names(coef(glmnet_mod)[,50])"
+"0","  return(list(print(paste(""The Lambda value is:"",glmnet_mod$lambda[ld])),"
+"0","         print(paste(""The coefficient for"",coef_names,""is:"", coef(glmnet_mod)[,ld])),"
+"0","         print(paste(""The l_2 norm of these coefficients is:"", sqrt(sum(coef(glmnet_mod)[-1,ld])^2)))"
+"0","         ))"
+"0","}"

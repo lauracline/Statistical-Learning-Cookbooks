@@ -1,0 +1,6 @@
+"0","pls.pred = predict(pls.fit, x[test,], ncomp=2)"
+"0","mean((pls.pred - y.test)^2)"
+"1","[1]"
+"1"," 145367.7"
+"1","
+"

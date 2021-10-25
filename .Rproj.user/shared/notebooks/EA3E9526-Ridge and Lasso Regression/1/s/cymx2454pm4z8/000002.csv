@@ -1,0 +1,3 @@
+"0","library(glmnet) #glmnet() function for ridge/lasso"
+"0","library(ISLR) # Hitters data"
+"0","library(pls) #pcr() function for principal components regression"

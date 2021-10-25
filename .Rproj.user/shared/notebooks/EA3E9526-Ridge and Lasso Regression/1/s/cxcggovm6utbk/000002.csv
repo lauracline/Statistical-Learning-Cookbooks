@@ -1,0 +1,3 @@
+"0","# Fit the lasso model and observe how some of the coefficients are exactly 0"
+"0","lasso_mod <- glmnet(x[train,], y[train], alpha=1, lambda=grid)"
+"0","plot(lasso_mod)"

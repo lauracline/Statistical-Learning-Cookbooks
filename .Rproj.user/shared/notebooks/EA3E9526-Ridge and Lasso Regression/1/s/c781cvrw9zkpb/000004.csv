@@ -1,0 +1,8 @@
+"0","# Fit a ridge regression on the training set and evaluate its MSE on the test, using lambda = 4"
+"0","ridge_mod <- glmnet(x[train,], y[train], alpha=0, lambda=grid, thresh=1e-12)"
+"0","ridge_pred <- predict(ridge_mod, s=4, newx=x[test,]) #s option sets the lambda value, newx specifies new observations used to make predicitons"
+"0","mean((ridge_pred - y.test)^2) #MSE"
+"1","[1]"
+"1"," 142199.2"
+"1","
+"

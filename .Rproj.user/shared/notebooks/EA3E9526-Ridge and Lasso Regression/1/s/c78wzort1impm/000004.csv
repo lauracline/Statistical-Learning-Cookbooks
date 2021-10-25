@@ -1,0 +1,7 @@
+"0","# Compare to the test MSE when lambda is extremely large (coefficients are approximately 0)"
+"0","ridge_pred <- predict(ridge_mod, s=1e10, newx=x[test,])"
+"0","mean((ridge_pred - y.test)^2)"
+"1","[1]"
+"1"," 224669.8"
+"1","
+"

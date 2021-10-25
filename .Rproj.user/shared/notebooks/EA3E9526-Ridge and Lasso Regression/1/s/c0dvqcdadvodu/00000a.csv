@@ -1,0 +1,3 @@
+"0","set.seed(1)"
+"0","pcr.fit = pcr(salary ~ ., data=Hitters, subset=train, scale=TRUE, validation =""CV"")"
+"0","validationplot(pcr.fit,val.type=""MSEP"")"

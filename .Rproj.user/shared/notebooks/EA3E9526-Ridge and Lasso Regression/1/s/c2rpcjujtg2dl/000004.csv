@@ -1,0 +1,2 @@
+"0","set.seed(2)"
+"0","pcr.fit <- pcr(salary ~ ., data=Hitters, scale=TRUE, validation=""CV"")"

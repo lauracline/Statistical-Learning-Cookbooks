@@ -1,0 +1,7 @@
+"0","# Finally, let's check if the ridge regression gives us better results than the least squares option (lambda = 0)"
+"0","ridge_pred <- predict(ridge_mod, s=0, newx=x[test,]) #the exact option allow us to specify that lambda is exactly 0, instead of searching for the smalles value of lambda in ""grid"""
+"0","mean((ridge_pred - y.test)^2)"
+"1","[1]"
+"1"," 167789.8"
+"1","
+"

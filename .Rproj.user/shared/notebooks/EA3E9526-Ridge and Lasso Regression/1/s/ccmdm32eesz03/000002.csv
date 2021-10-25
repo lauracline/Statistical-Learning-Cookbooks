@@ -1,0 +1,4 @@
+"0","# Perform CV and compute test errors"
+"0","set.seed(1)"
+"0","cv_out <- cv.glmnet(x[train,], y[train], alpha=1)"
+"0","plot(cv_out)"

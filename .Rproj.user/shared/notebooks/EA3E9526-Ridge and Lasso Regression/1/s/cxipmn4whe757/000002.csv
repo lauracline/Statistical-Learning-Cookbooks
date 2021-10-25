@@ -1,0 +1,6 @@
+"0","pcr.pred = predict(pcr.fit, x[test,], ncomp=7)"
+"0","mean((pcr.pred = y.test)^2)"
+"1","[1]"
+"1"," 516156.5"
+"1","
+"

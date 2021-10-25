@@ -1,0 +1,7 @@
+"0","best_lam <- cv_out$lambda.min"
+"0","lasso_pred <- predict(lasso_mod, s=best_lam, newx=x[test,])"
+"0","mean((lasso_pred - y.test)^2)"
+"1","[1]"
+"1"," 143673.6"
+"1","
+"
